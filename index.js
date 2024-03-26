@@ -19,8 +19,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(express.static(path.join(__dirname,'/public')))
 
 app.use(cors({
-    //origin:'https://lista-tareas-jmt3mghfz-thejb4.vercel.app',
-    origin:'http://localhost:5173',
+    origin:'https://lista-tareas-jmt3mghfz-thejb4.vercel.app',
     credentials: true
 }))
 
